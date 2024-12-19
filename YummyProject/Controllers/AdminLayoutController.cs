@@ -6,14 +6,12 @@ using System.Web.Mvc;
 
 namespace YummyProject.Controllers
 {
-    public class UILayoutController : Controller
+    public class AdminLayoutController : Controller
     {
-        // GET: UILayout
+        // GET: AdminLayout
         public ActionResult Index()
         {
             return View();
         }
-
-
     }
 }
