@@ -8,6 +8,7 @@ using YummyProject.Models;
 
 namespace YummyProject.Controllers
 {
+
     public class FeatureController : Controller
     {
         YummyContext context = new YummyContext();
@@ -17,7 +18,7 @@ namespace YummyProject.Controllers
             var values = context.Features.ToList();
             return View(values);
         }
-
+        
         public ActionResult AddFeature()
         {
             return View();
